@@ -85,7 +85,7 @@ firebase login
 firebase init
 ```
 
-1. Select **Hosting** from the list of Firebase features.
+1. Select **Hosting** , **Firestore** and **Functions** from the list of Firebase features.
 2. Choose your Firebase project.
 3. Set the public directory to `dist`.
 4. Configure as a single-page app (Yes).
