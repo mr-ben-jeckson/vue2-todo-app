@@ -45,12 +45,13 @@ cd functions && npm install
 6. Edit file `./src/firebase/config.js` file in the src directory of your project and replace the Firebase configuration:
 
 ```config
-VUE_APP_FIREBASE_API_KEY=your-api-key
-VUE_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
-VUE_APP_FIREBASE_PROJECT_ID=your-project-id
-VUE_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-VUE_APP_FIREBASE_MESSAGING_SENDER_ID=your-messaging-sender-id
-VUE_APP_FIREBASE_APP_ID=your-app-id
+  apiKey: 'Replace Your Firebase API Key Here',
+  authDomain: 'Replace Your Firebase Auth Domain Here',
+  projectId: 'Replace Your Firebase Project ID Here',
+  storageBucket: 'Replace Your Firebase Storage Bucket Here',
+  messagingSenderId: 'Replace Your Firebase Messaging Sender ID Here',
+  appId: 'Replace Your Firebase App ID Here',
+  measurementId: 'Replace Your Firebase Measurement ID Here'
 ```
 
 ### Step 4: Run the Application
